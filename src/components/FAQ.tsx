@@ -44,7 +44,7 @@ const FAQ = () => {
     <div className="flex w-full pt-[7rem] pb-10 px-4 md:px-14 flex-row flex-wrap items-center justify-center">
       <div className="w-full flex gap-2 flex-col">
         <h1 className="text-4xl font-bold tracking-tighter text-gray-800 md:text-5xl text-center">
-          Got Questions? We've got Answers!
+          Got Questions? We&apos;ve got Answers!
         </h1>
         <p className="text-gray-800 font-uncut tracking-tight text-center">
           Some frequently asked questions
