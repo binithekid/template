@@ -173,7 +173,7 @@ const Homescape = () => {
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.6, ease: "easeInOut" }}
-        className="w-1/3 flex py-8 flex-col"
+        className="w-1/3 flex py-2 flex-col"
       >
         <div className="flex flex-row w-full items-end justify-between">
           <h1 className="text-4xl font-bold tracking-tighter text-gray-900">
@@ -210,7 +210,7 @@ const Homescape = () => {
         <hr className="my-4" />
         <div className="flex py-2 gap-6 flex-col">
           <p className="text-sm text-gray-600 font-semibold">FEATURES</p>
-          <div className="flex flex-row w-full">
+          <div className="flex flex-row w-full gap-8">
             <div className="flex w-1/2 items-center gap-2 flex-row">
               <div className="flex bg-sky-100 p-[0.3rem] rounded flex-row">
                 <FaCheckCircle className="text-sm text-blue-500" />
@@ -224,7 +224,7 @@ const Homescape = () => {
               <p className="w-max">Accessible</p>
             </div>
           </div>
-          <div className="flex flex-row w-full">
+          <div className="flex flex-row w-full gap-8">
             <div className="flex w-1/2 items-center gap-2 flex-row">
               <div className="flex bg-sky-100 p-[0.3rem] rounded flex-row">
                 <FaCheckCircle className="text-sm text-blue-500" />
