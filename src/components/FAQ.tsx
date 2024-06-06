@@ -46,7 +46,7 @@ const FAQ = () => {
         <h1 className="text-4xl font-bold tracking-tighter text-gray-800 md:text-5xl text-center">
           Got Questions? We&apos;ve got Answers!
         </h1>
-        <p className="text-gray-800 font-uncut tracking-tight text-center">
+        <p className="text-gray-800 text-xl text-center">
           Some frequently asked questions
         </p>
         <div className="flex font-uncut w-full flex-col mt-9 px-0 md:px-36 flex-wrap">

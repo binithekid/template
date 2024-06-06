@@ -13,7 +13,7 @@ const CallToAction = () => {
           <p>Get Unlimited Access</p>{" "}
         </button>
       </div>
-      <div className="pt-16 flex px-40 items-center justify-center flex-row gap-20">
+      <div className="pt-16 flex px-40 items-center justify-center flex-row gap-8">
         <img
           className="w-[33%] -rotate-6 mt-5 -mb-[15rem] screehshotshadow"
           src={Homescape.src}

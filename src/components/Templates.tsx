@@ -21,7 +21,7 @@ const Templates = () => {
             <p className="font-bold text-2xl tracking-tighter text-gray-800">
               Homescape
             </p>
-            <p className=" text-gray-700">
+            <p className="text-gray-700">
               The ultimate admin dashboard template for creating stunning and
               responsive apps.
             </p>
@@ -51,9 +51,11 @@ const Templates = () => {
                   <p>Live Demo </p>
                 </button>
               </Link>
-              <button className="bg-blue-500 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-3 py-2 rounded shadow-lg">
-                <p>Get Unlimited Access</p>{" "}
-              </button>
+              <Link href="/homescape">
+                <button className="bg-blue-500 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-3 py-2 rounded shadow-lg">
+                  <p>Buy Now - $29</p>{" "}
+                </button>
+              </Link>
             </div>
           </div>
           <div className="w-3/5 pl-10 flex flex-row gap-4 justify-center overflow-hidden">

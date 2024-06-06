@@ -12,7 +12,9 @@ const Footer = () => {
           <div className="p-[0.2rem] bg-clip-padding border border-gray-200 rounded bg-gray-400 backdrop-filter backdrop-blur-sm bg-opacity-20">
             <PiWaveSineDuotone className="text-blue-700 text-xl" />
           </div>
-          <h1 className={`text-gray-800 font-medium w-max text-xl`}>
+          <h1
+            className={`text-gray-800 tracking-tighter font-medium w-max text-xl`}
+          >
             Untitled <span className="text-blue-500">UI</span>
           </h1>
         </div>

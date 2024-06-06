@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <main className=" flex flex-col items-center justify-center">
-        <div className="w-full py-40 flex gap-6 flex-col px-[8rem] items-center">
+        <div className="w-full py-[8rem] flex gap-6 flex-col px-[8rem] items-center">
           <motion.h1
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -59,9 +59,11 @@ export default function Home() {
             transition={{ delay: 0.9, duration: 0.6, ease: "easeInOut" }}
             className="flex flex-row gap-6 py-4 items-center"
           >
-            <button className="bg-white font-medium border border-gray-200 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-gray-800 text-sm px-4 py-3 rounded shadow-lg">
-              <p>Read the Docs </p>
-            </button>
+            <Link href="/docs">
+              <button className="bg-white font-medium border border-gray-200 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-gray-800 text-sm px-4 py-3 rounded shadow-lg">
+                <p>Read the Docs </p>
+              </button>
+            </Link>
             <Link href="/getAccess">
               <button className="bg-blue-500 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-4 py-3 rounded shadow-lg">
                 <p>Get Unlimited Access</p>{" "}

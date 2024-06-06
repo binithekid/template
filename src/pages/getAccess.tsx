@@ -8,7 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const getAccess = () => {
   return (
     <div>
-      <div className="w-full py-40 flex gap-6 flex-col px-[8rem] items-center">
+      <div className="w-full py-[8rem] flex gap-6 flex-col px-[8rem] items-center">
         <motion.h1
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
