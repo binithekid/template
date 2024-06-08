@@ -5,7 +5,7 @@ const Trusted = () => {
   return (
     <div className="flex w-full py-[7rem] gap-10 relative z-50 flex-col bg-[rgb(30,41,59)]">
       <div className="px-40 flex items-center justify-center flex-col gap-3">
-        <h1 className="text-4xl font-bold tracking-tighter text-white md:text-5xl text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl text-center">
           Trusted by founders and developers alike
         </h1>
         <p className="text-xl text-gray-200">

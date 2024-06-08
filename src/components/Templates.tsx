@@ -18,7 +18,7 @@ const Templates = () => {
           className="flex  border-spacing-7 border border-gray-200 shadowe rounded-lg bg-gradient-to-bl from-[#d6d6d6] from-10% via-[#e7ebee] via-30% to-white to-90% items-center flex-row"
         >
           <div className="w-2/5 flex flex-col gap-1 px-8">
-            <p className="font-bold text-2xl tracking-tighter text-gray-800">
+            <p className="font-bold text-2xl tracking-tight text-gray-800">
               Homescape
             </p>
             <p className="text-gray-700">

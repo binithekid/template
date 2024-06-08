@@ -13,7 +13,7 @@ const Footer = () => {
             <PiWaveSineDuotone className="text-blue-700 text-xl" />
           </div>
           <h1
-            className={`text-gray-800 tracking-tighter font-medium w-max text-xl`}
+            className={`text-gray-800 tracking-tight font-medium w-max text-xl`}
           >
             Untitled <span className="text-blue-500">UI</span>
           </h1>

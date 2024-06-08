@@ -5,7 +5,7 @@ const CallToAction = () => {
   return (
     <div className="flex flex-col mt-20 pt-20 mx-[8rem] border-spacing-7 border border-gray-300 shadowe rounded-lg bg-[#1e293b] justify-center overflow-hidden items-center">
       <div className="flex flex-col items-center px-[15rem] gap-1 ">
-        <h1 className="text-4xl font-bold tracking-tighter text-white md:text-5xl text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl text-center">
           Not sure which template to buy? Get all of them for{" "}
           <span className="text-blue-500">$89</span>{" "}
         </h1>

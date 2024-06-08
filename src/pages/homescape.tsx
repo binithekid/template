@@ -158,7 +158,7 @@ const Homescape = () => {
           </div>
           <div className="flex flex-col py-20 border border-gray-300 rounded-lg bg-[#1e293b] justify-center overflow-hidden items-center">
             <div className="flex flex-col items-center px-14 gap-10 ">
-              <h1 className="text-4xl font-bold tracking-tighter text-white text-center">
+              <h1 className="text-4xl font-bold tracking-tight text-white text-center">
                 Not sure which template to buy? Get all of them for{" "}
                 <span className="text-blue-500">$89</span>{" "}
               </h1>
@@ -176,10 +176,10 @@ const Homescape = () => {
         className="w-1/3 flex py-2 flex-col"
       >
         <div className="flex flex-row w-full items-end justify-between">
-          <h1 className="text-4xl font-bold tracking-tighter text-gray-900">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900">
             Homescape
           </h1>
-          <p className="text-2xl tracking-tighter font-bold text-blue-500">
+          <p className="text-2xl tracking-tight font-bold text-blue-500">
             $29.00
           </p>
         </div>
@@ -188,7 +188,7 @@ const Homescape = () => {
             <div className="p-[0.2rem] bg-clip-padding border border-gray-200 rounded bg-gray-400 backdrop-filter backdrop-blur-sm bg-opacity-20">
               <PiWaveSineDuotone className="text-blue-700" />
             </div>
-            <h1 className={`text-gray-800 font-medium w-max tracking-tighter`}>
+            <h1 className={`text-gray-800 font-medium w-max tracking-tight`}>
               Untitled <span className="text-blue-500">UI</span>
             </h1>
           </div>

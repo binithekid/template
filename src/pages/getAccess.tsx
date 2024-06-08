@@ -13,7 +13,7 @@ const getAccess = () => {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0, duration: 0.6, ease: "easeInOut" }}
-          className="text-4xl w-[80%] font-bold tracking-tighter text-gray-900 md:text-6xl text-center"
+          className="text-4xl w-[80%] font-bold tracking-tight text-gray-900 md:text-6xl text-center"
         >
           Get everything, and more!
         </motion.h1>
@@ -34,7 +34,7 @@ const getAccess = () => {
         >
           <div className="flex flex-col py-3 gap-3 px-3">
             <p className="font-semibold">Limited time offer ✨</p>
-            <p className="text-5xl tracking-tighter font-bold text-blue-500">
+            <p className="text-5xl tracking-tight font-bold text-blue-500">
               $89
             </p>
             <p className="text-base text-gray-500">
