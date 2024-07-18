@@ -44,7 +44,7 @@ const NavBar = () => {
             <p className="text-sm pr-4">Blog</p>
           </Link>
           <Link href="/getAccess">
-            <button className="bg-blue-500 transition-colors duration-300 hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-4 py-3 rounded shadow-lg">
+            <button className="bg-blue-500 transition-colors duration-300 hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-4 py-3 rounded">
               <p>Get Unlimited Access</p>{" "}
               <FaArrowRightLong className="text-gray-300 mt-[2px] arrow-icon" />
             </button>

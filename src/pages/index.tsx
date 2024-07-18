@@ -60,12 +60,12 @@ export default function Home() {
             className="flex flex-row gap-6 py-4 items-center"
           >
             <Link href="/docs">
-              <button className="bg-white font-medium border border-gray-200 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-gray-800 text-sm px-4 py-3 rounded shadow-lg">
+              <button className="bg-white font-medium border border-gray-200 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-gray-800 text-sm px-4 py-3 rounded">
                 <p>Read the Docs </p>
               </button>
             </Link>
             <Link href="/getAccess">
-              <button className="bg-blue-500 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-4 py-3 rounded shadow-lg">
+              <button className="bg-blue-500 transition-all hover:opacity-80 flex flex-row items-center gap-2 text-white text-sm px-4 py-3 rounded">
                 <p>Get Unlimited Access</p>{" "}
               </button>
             </Link>
